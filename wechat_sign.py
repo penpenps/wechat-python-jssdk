@@ -61,7 +61,7 @@ class Sign:
 
 if __name__ == '__main__':
     # 注意 URL 一定要动态获取，不能 hardcode
-    appId = 'wx9a91b1b64822ea90'
-    appSecret = 'a0947b925d5c2ff65217d2bfb969ca6c'
+    appId = 'wx9aaaaaaaaaaaaa'
+    appSecret = 'a******************'
     sign = Sign(appId, appSecret, 'http://example.com')
     print sign.sign()
